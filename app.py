@@ -12,7 +12,7 @@
 #     max_tokens=None,
 #     timeout=None,
 #     max_retries=2,
-#     google_api_key='AIzaSyCB0nvDatYRZb0Ok8AaB6Jle1AkqbQIvqc'
+#     google_api_key=''
 # )
 
 # st.title("📊 Auto Graph Generator")
@@ -80,7 +80,7 @@ llm = ChatGoogleGenerativeAI(
     max_tokens=None,
     timeout=None,
     max_retries=2,
-    google_api_key='AIzaSyCB0nvDatYRZb0Ok8AaB6Jle1AkqbQIvqc'
+    google_api_key=''
 )
 
 st.title("📊 Auto Graph Generator with AI")
