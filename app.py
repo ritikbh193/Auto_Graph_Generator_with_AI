@@ -80,7 +80,7 @@ llm = ChatGoogleGenerativeAI(
     max_tokens=None,
     timeout=None,
     max_retries=2,
-    google_api_key=''
+    google_api_key=' '
 )
 
 st.title("📊 Auto Graph Generator with AI")
